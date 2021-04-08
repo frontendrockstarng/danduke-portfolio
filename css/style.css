@@ -381,7 +381,7 @@ header{
   /* medai query */ 
   /* for mobile || all sizes */
   
-@media only screen and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 600px) {
     .container{
         display: flex;
         flex-direction: column;
@@ -465,9 +465,9 @@ header{
    
 }
 
-@media only screen and (max-width: 768px) {
+@media (min-width: 650px) and (max-width: 769px) {
     .nav-lists{
-        width: 93%;
+        width: 100%;
         padding-top: 4%;
         padding-bottom: 4%;
         margin-left: 0;
@@ -499,6 +499,10 @@ header{
     
     .wrap-job-details{
         margin-bottom: 15%;
+    }
+
+    .section-title{
+        margin-bottom: 25%;
     }
 
 }
